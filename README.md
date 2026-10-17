@@ -4,7 +4,6 @@
 
 > **Run it in the cloud with no setup:** [Website Technology Detector: Tech Stack & Email Provider on the Apify Store](https://apify.com/manageable_gully/website-tech-detector).  
 > Pay only per result, export to JSON/CSV/Excel, schedule runs and call it from the API.
-<!-- Note: the Apify Store page goes live once the Actor is published. -->
 <!-- AFFILIATE_LINK_PLACEHOLDER: replace the Apify links above with the affiliate link when available -->
 
 A BuiltWith/Wappalyzer-style lookup in bulk. Give it a list of websites and get each site's **technology stack**: CMS, e-commerce platform, JavaScript frameworks, analytics and tag managers, CDN and hosting, payment providers, **email provider** and SaaS tools, with **versions** where the site exposes them.
