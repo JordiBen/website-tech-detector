@@ -1,0 +1,12 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Website technology detector output",
+  "properties": {
+    "results": {
+      "type": "string",
+      "template": "{{links.apiDefaultDatasetUrl}}/items",
+      "title": "Detected technologies",
+      "description": "One item per website: final URL, technology count, categories and detected technologies with versions."
+    }
+  }
+}
