@@ -1,0 +1,57 @@
+{
+  "actorSpecification": 1,
+  "name": "website-tech-detector",
+  "title": "Website Technology Detector: Tech Stack & Email Provider",
+  "description": "Find out what any website is built with: CMS, e-commerce platform, JS frameworks, analytics, tag managers, CDN, hosting, payment, email provider and SaaS tools, with versions where exposed. 4,000+ technology fingerprints, bulk lists, priced per site.",
+  "version": "1.0",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile",
+  "readme": "../README.md",
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "views": {
+        "overview": {
+          "title": "Overview",
+          "transformation": {
+            "fields": [
+              "input",
+              "finalUrl",
+              "technologyCount",
+              "categories",
+              "technologyNames",
+              "error"
+            ]
+          },
+          "display": {
+            "component": "table",
+            "properties": {
+              "input": {
+                "label": "Site"
+              },
+              "finalUrl": {
+                "label": "Final URL",
+                "format": "link"
+              },
+              "technologyCount": {
+                "label": "# Tech",
+                "format": "number"
+              },
+              "categories": {
+                "label": "Categories",
+                "format": "array"
+              },
+              "technologyNames": {
+                "label": "Technologies (enable 'flatten')"
+              },
+              "error": {
+                "label": "Error"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
