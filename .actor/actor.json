@@ -1,8 +1,8 @@
 {
   "actorSpecification": 1,
   "name": "website-tech-detector",
-  "title": "Website Technology Detector: Tech Stack & Email Provider",
-  "description": "Find out what any website is built with: CMS, e-commerce platform, JS frameworks, analytics, tag managers, CDN, hosting, payment, email provider and SaaS tools, with versions where exposed. 4,000+ technology fingerprints, bulk lists, priced per site.",
+  "title": "Website Tech Stack Detector: BuiltWith & Wappalyzer Alternative",
+  "description": "Find out what any website is built with: CMS (WordPress, Shopify...), JS frameworks, analytics, tag managers, CDN, hosting, payments, email provider and SaaS tools, with versions. A BuiltWith/Wappalyzer-style technology lookup in bulk, 4,000+ fingerprints. $2 per 1,000 sites.",
   "version": "1.0",
   "buildTag": "latest",
   "input": "./input_schema.json",
